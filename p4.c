@@ -22,7 +22,7 @@ int main() {
         for (int j = 0; j < cols; ++j) {
             printf("%d ", array[i][j]);
         }
-        
+        printf("\n");
     }
 
     return 0;
