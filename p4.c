@@ -1,3 +1,4 @@
+// 2D array Example
 #include <stdio.h>
 
 int main() {
