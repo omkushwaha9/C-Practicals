@@ -50,15 +50,16 @@ void push()
 void pop()
 {
     int item;
-    if(top == top-1)
+    if (top == top - 1)
     {
         printf("Stack is underflow");
-    }else{
-        top = top-1;
+    }
+    else
+    {
+        top = top - 1;
         stack[top] = item;
     }
 }
 void display()
 {
-    
 }

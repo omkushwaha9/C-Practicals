@@ -1,18 +1,23 @@
-// Write a program to find the factorial 
+// Write a program to find the factorial
 #include <stdio.h>
 
 int sum(int k);
 
-int main() {
+int main()
+{
   int result = sum(11);
   printf("%d", result);
   return 0;
 }
 
-int sum(int k) {
-  if (k > 0) {
+int sum(int k)
+{
+  if (k > 0)
+  {
     return k + sum(k - 1);
-  } else {
+  }
+  else
+  {
     return 0;
   }
 }
