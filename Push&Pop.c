@@ -53,7 +53,7 @@ int main()
             break;
 
         case 0:
-            printf("Sucessfully Exited :)");
+            printf("Sucessfully Exited :");
             break;
 
         default:
