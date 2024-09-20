@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <float.h>
 
-double simpleCalc(double num1, double num2, char op) {
+double simpleCalc(double num1, double num2, char op)
+{
     double res;
 
-    switch (op) {
+    switch (op)
+    {
     case '+':
         res = num1 + num2;
         break;
@@ -24,11 +26,11 @@ double simpleCalc(double num1, double num2, char op) {
     return res;
 }
 
-int main() {
+int main()
+{
     char op;
     double num1, num2, res;
 
-   
     printf("Enter an operator (+, -, *, /): ");
     scanf("%c", &op);
 
@@ -37,9 +39,8 @@ int main() {
 
     res = simpleCalc(num1, num2, op);
 
-   
     if (res != -DBL_MAX)
         printf("Result: %.2lf\n", res);
-    
+
     return 0;
 }
